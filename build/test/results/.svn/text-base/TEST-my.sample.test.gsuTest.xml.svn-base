@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="1" name="my.sample.test.gsuTest" tests="1" time="0.075">
+  <properties>
+    <property name="default.javac.source" value="1.5"></property>
+    <property name="file.encoding.pkg" value="sun.io"></property>
+    <property name="javac.source" value="1.4"></property>
+    <property name="libs.jaxrpc16.src" value=""></property>
+    <property name="netbeans.system_http_proxy" value="DIRECT"></property>
+    <property name="java.home" value="/System/Library/Frameworks/JavaVM.framework/Versions/1.5.0/Home"></property>
+    <property name="test.src.dir" value="test"></property>
+    <property name="javadoc.version" value="false"></property>
+    <property name="libs.CopyLibs.classpath" value="/Applications/NetBeans.app/Contents/Resources/NetBeans/ide6/ant/extra/org-netbeans-modules-java-j2seproject-copylibstask.jar"></property>
+    <property name="java.endorsed.dirs" value="/System/Library/Frameworks/JavaVM.framework/Versions/1.5.0/Home/lib/endorsed"></property>
+    <property name="src.dir" value="src/java"></property>
+    <property name="nbplatform.default.harness.dir" value="/Applications/NetBeans.app/Contents/Resources/NetBeans/harness"></property>
+    <property name="source.root" value="src"></property>
+    <property name="have.sources" value="true"></property>
+    <property name="sun.os.patch.level" value="unknown"></property>
+    <property name="java.vendor.url" value="http://apple.com/"></property>
+    <property name="java.version" value="1.5.0_06"></property>
+    <property name="libs.jsf.classpath" value="/Applications/NetBeans.app/Contents/Resources/NetBeans/enterprise2/modules/ext/jsf/commons-beanutils.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/enterprise2/modules/ext/jsf/commons-collections.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/enterprise2/modules/ext/jsf/commons-digester.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/enterprise2/modules/ext/jsf/commons-logging.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/enterprise2/modules/ext/jsf/jsf-api.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/enterprise2/modules/ext/jsf/jsf-impl.jar"></property>
+    <property name="build.web.excludes" value="**/*.java,**/*.form"></property>
+    <property name="javac.debug" value="true"></property>
+    <property name="env-app_name_4763" value="NetBeans"></property>
+    <property name="display.browser" value="true"></property>
+    <property name="conf.dir" value="src/conf"></property>
+    <property name="org.openide.major.version" value="IDE/1"></property>
+    <property name="java.vendor.url.bug" value="http://developer.apple.com/java/"></property>
+    <property name="wsclientuptodate.classpath" value="/Applications/NetBeans.app/Contents/Resources/NetBeans/enterprise2/ant/extra/wsclientuptodate.jar"></property>
+    <property name="libs.absolutelayout.javadoc" value=""></property>
+    <property name="netbeans.buildnumber" value="200601251500"></property>
+    <property name="client.urlPart" value=""></property>
+    <property name="file.reference.mysql-connector-java-3.1.13-bin.jar" value="/Users/travis/Documents/java/mysql-connector-java-3.1.13/mysql-connector-java-3.1.13-bin.jar"></property>
+    <property name="user.name" value="travis"></property>
+    <property name="Env-SECURITYSESSIONID" value="805df0"></property>
+    <property name="has.custom.manifest" value="true"></property>
+    <property name="build.meta.inf.dir" value="build/web/META-INF"></property>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"></property>
+    <property name="env-securitysessionid" value="805df0"></property>
+    <property name="sun.jnu.encoding" value="MacRoman"></property>
+    <property name="do.war.package.with.custom.manifest" value="true"></property>
+    <property name="java.runtime.name" value="Java(TM) 2 Runtime Environment, Standard Edition"></property>
+    <property name="jdk.home" value="/Library/Java/Home"></property>
+    <property name="jspc.classpath" value="/Applications/NetBeans.app/Contents/Resources/NetBeans/ide6/ant/lib/ant.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/enterprise2/jakarta-tomcat-5.5.9/common/lib/ant.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/enterprise2/jakarta-tomcat-5.5.9/common/lib/commons-el.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/enterprise2/jakarta-tomcat-5.5.9/common/lib/jasper-compiler.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/enterprise2/jakarta-tomcat-5.5.9/common/lib/jasper-runtime.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/enterprise2/jakarta-tomcat-5.5.9/common/lib/jsp-api.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/enterprise2/jakarta-tomcat-5.5.9/common/lib/naming-factory-dbcp.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/enterprise2/jakarta-tomcat-5.5.9/common/lib/naming-factory.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/enterprise2/jakarta-tomcat-5.5.9/common/lib/naming-resources.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/enterprise2/jakarta-tomcat-5.5.9/common/lib/servlet-api.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/enterprise2/modules/ext/jasper-compiler-5.5.9.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/enterprise2/modules/ext/jasper-runtime-5.5.9.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/enterprise2/modules/ext/commons-el.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/ide6/modules/ext/commons-logging-1.0.4.jar"></property>
+    <property name="Env-__CF_USER_TEXT_ENCODING" value="0x1F5:0:0"></property>
+    <property name="Env-PATH" value="/usr/bin:/bin:/usr/sbin:/sbin"></property>
+    <property name="lib.dir" value="web/WEB-INF/lib"></property>
+    <property name="org.openide.TopManager" value="org.netbeans.core.NonGui"></property>
+    <property name="netbeans.dirs" value=":/Applications/NetBeans.app/Contents/MacOS/../Resources/NetBeans/bin/../nb5.0:/Applications/NetBeans.app/Contents/MacOS/../Resources/NetBeans/bin/../ide6:/Applications/NetBeans.app/Contents/MacOS/../Resources/NetBeans/bin/../enterprise2:/Applications/NetBeans.app/Contents/MacOS/../Resources/NetBeans/bin/../harness"></property>
+    <property name="java.specification.name" value="Java Platform API Specification"></property>
+    <property name="javadoc.author" value="false"></property>
+    <property name="user.timezone" value=""></property>
+    <property name="web.docbase.dir" value="web"></property>
+    <property name="libs.junit.javadoc" value="/Applications/NetBeans.app/Contents/Resources/NetBeans/ide6/docs/junit-3.8.1-api.zip"></property>
+    <property name="org.openide.specification.version" value="6.2"></property>
+    <property name="path.separator" value=":"></property>
+    <property name="libs.absolutelayout.classpath" value="/Applications/NetBeans.app/Contents/Resources/NetBeans/ide6/modules/ext/AbsoluteLayout.jar"></property>
+    <property name="libs.jaxrpc16.classpath" value="/Applications/NetBeans.app/Contents/Resources/NetBeans/ide6/modules/ext/jaxrpc16/activation.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/ide6/modules/ext/jaxrpc16/FastInfoset.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/ide6/modules/ext/jaxrpc16/jax-qname.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/ide6/modules/ext/jaxrpc16/jaxp-api.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/ide6/modules/ext/jaxrpc16/jaxrpc-api.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/ide6/modules/ext/jaxrpc16/jaxrpc-impl.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/ide6/modules/ext/jaxrpc16/jaxrpc-spi.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/ide6/modules/ext/jaxrpc16/jsr173_api.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/ide6/modules/ext/jaxrpc16/mail.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/ide6/modules/ext/jaxrpc16/relaxngDatatype.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/ide6/modules/ext/jaxrpc16/saaj-api.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/ide6/modules/ext/jaxrpc16/saaj-impl.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/ide6/modules/ext/jaxrpc16/xsdlib.jar"></property>
+    <property name="netbeans.accept_license_class" value="org.netbeans.license.AcceptLicense"></property>
+    <property name="file.encoding" value="MacRoman"></property>
+    <property name="dist.javadoc.dir" value="dist/javadoc"></property>
+    <property name="Env-SHELL" value="/bin/bash"></property>
+    <property name="env-shlvl" value="2"></property>
+    <property name="https.nonProxyHosts" value="localhost|127.0.0.1|Hurricane.local|10.3.1.42"></property>
+    <property name="libs.junit.src" value=""></property>
+    <property name="Env-PWD" value="/"></property>
+    <property name="ant.file" value="/Users/travis/Documents/school stuff/gsu_fhce/build.xml"></property>
+    <property name="env-java_main_class_4763" value="org.netbeans.Main"></property>
+    <property name="copyfiles.classpath" value="/Applications/NetBeans.app/Contents/Resources/NetBeans/enterprise2/ant/extra/copyfiles.jar"></property>
+    <property name="j2ee.server.instance" value="tomcat55:home=$bundled_home:base=$bundled_base"></property>
+    <property name="java.io.tmpdir" value="/tmp"></property>
+    <property name="Env-USER" value="travis"></property>
+    <property name="build.test.results.dir" value="build/test/results"></property>
+    <property name="user.language" value="en"></property>
+    <property name="Env-APP_NAME_4763" value="NetBeans"></property>
+    <property name="line.separator" value="
+"></property>
+    <property name="apple.laf.useScreenMenuBar" value="true"></property>
+    <property name="libs.absolutelayout.src" value=""></property>
+    <property name="javac.compilerargs" value=""></property>
+    <property name="netbeans.osenv.nullsep" value="false"></property>
+    <property name="war.name" value="gsu_fhce.war"></property>
+    <property name="jar.compress" value="false"></property>
+    <property name="env-app_icon_4763" value="/Applications/NetBeans.app/Contents/MacOS/../Resources/NetBeans/bin/../nb5.0/netbeans.icns"></property>
+    <property name="java.vm.info" value="mixed mode, sharing"></property>
+    <property name="javadoc.private" value="false"></property>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"></property>
+    <property name="build.test.classes.dir" value="build/test/classes"></property>
+    <property name="env-_" value="/Library/Java/Home/bin/java"></property>
+    <property name="netbeans.dynamic.classpath" value="/Applications/NetBeans.app/Contents/Resources/NetBeans/platform6/core/core.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/platform6/core/org-openide-filesystems.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/nb5.0/core/org-netbeans-upgrader.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/nb5.0/core/locale/core_nb.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/ide6/core/org-netbeans-modules-utilities-cli.jar"></property>
+    <property name="Env-JAVA_MAIN_CLASS_4763" value="org.netbeans.Main"></property>
+    <property name="compile.jsps" value="false"></property>
+    <property name="no.dist.ear.dir" value="true"></property>
+    <property name="platform.active" value="default_platform"></property>
+    <property name="Env-_" value="/Library/Java/Home/bin/java"></property>
+    <property name="http.nonProxyHosts" value="localhost|127.0.0.1|Hurricane.local|10.3.1.42"></property>
+    <property name="libs.jsf.src" value=""></property>
+    <property name="build.classes.dir.real" value="build/web/WEB-INF/classes"></property>
+    <property name="javadoc.encoding" value=""></property>
+    <property name="java.awt.printerjob" value="apple.awt.CPrinterJob"></property>
+    <property name="libs.struts.classpath" value="/Applications/NetBeans.app/Contents/Resources/NetBeans/enterprise2/modules/ext/struts/antlr.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/enterprise2/modules/ext/struts/commons-beanutils.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/enterprise2/modules/ext/struts/commons-digester.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/enterprise2/modules/ext/struts/commons-fileupload.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/enterprise2/modules/ext/struts/commons-logging.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/enterprise2/modules/ext/struts/commons-validator.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/enterprise2/modules/ext/struts/jakarta-oro.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/enterprise2/modules/ext/struts/struts.jar"></property>
+    <property name="ant.version" value="Apache Ant version 1.6.5 compiled on June 2 2005"></property>
+    <property name="netbeans.home" value="/Applications/NetBeans.app/Contents/Resources/NetBeans/platform6"></property>
+    <property name="javadoc.nonavbar" value="false"></property>
+    <property name="user.properties.file" value="/Users/travis/.netbeans/5.0/build.properties"></property>
+    <property name="netbeans.importclass" value="org.netbeans.upgrade.AutoUpgrade"></property>
+    <property name="build.web.dir" value="build/web"></property>
+    <property name="https.proxyPort" value=""></property>
+    <property name="gopherProxySet" value="false"></property>
+    <property name="j2ee.server.type" value="Tomcat55"></property>
+    <property name="build.generated.dir" value="build/generated"></property>
+    <property name="netbeans.home+have.tests" value="true"></property>
+    <property name="apple.awt.graphics.UseQuartz" value="true"></property>
+    <property name="env-home" value="/Users/travis"></property>
+    <property name="os.name" value="Mac OS X"></property>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."></property>
+    <property name="run.test.classpath" value="/Users/travis/Documents/java/mysql-connector-java-3.1.13/mysql-connector-java-3.1.13-bin.jar:build/web/WEB-INF/classes:/Applications/NetBeans.app/Contents/Resources/NetBeans/ide6/modules/ext/junit-3.8.1.jar:build/test/classes"></property>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"></property>
+    <property name="libs.CopyLibs.src" value=""></property>
+    <property name="mrj.version" value="1040.1.5.0_06-112"></property>
+    <property name="org.openide.version" value="deprecated"></property>
+    <property name="libs.junit.classpath" value="/Applications/NetBeans.app/Contents/Resources/NetBeans/ide6/modules/ext/junit-3.8.1.jar"></property>
+    <property name="Env-APP_ICON_4763" value="/Applications/NetBeans.app/Contents/MacOS/../Resources/NetBeans/bin/../nb5.0/netbeans.icns"></property>
+    <property name="java.library.path" value=".:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"></property>
+    <property name="env-__cf_user_text_encoding" value="0x1F5:0:0"></property>
+    <property name="ant.java.version" value="1.5"></property>
+    <property name="basedir" value="/Users/travis/Documents/school stuff/gsu_fhce"></property>
+    <property name="javadoc.noindex" value="false"></property>
+    <property name="java.class.version" value="49.0"></property>
+    <property name="build.ear.web.dir" value="build/ear-module"></property>
+    <property name="sun.awt.exception.handler" value="org.netbeans.core.NbErrorManager$AWTHandler"></property>
+    <property name="war.package" value="true"></property>
+    <property name="javac.test.classpath" value="/Users/travis/Documents/java/mysql-connector-java-3.1.13/mysql-connector-java-3.1.13-bin.jar:build/web/WEB-INF/classes:/Applications/NetBeans.app/Contents/Resources/NetBeans/ide6/modules/ext/junit-3.8.1.jar"></property>
+    <property name="j2ee.platform" value="1.4"></property>
+    <property name="build.ear.classes.dir" value="build/ear-module/WEB-INF/classes"></property>
+    <property name="ant.home" value="/Applications/NetBeans.app/Contents/Resources/NetBeans/ide6/ant"></property>
+    <property name="resource.dir" value="setup"></property>
+    <property name="javadoc.splitindex" value="true"></property>
+    <property name="javadoc.preview" value="true"></property>
+    <property name="env-pwd" value="/"></property>
+    <property name="libs.CopyLibs.javadoc" value=""></property>
+    <property name="runmain.jvmargs" value=""></property>
+    <property name="env-shell" value="/bin/bash"></property>
+    <property name="sun.boot.library.path" value="/System/Library/Frameworks/JavaVM.framework/Versions/1.5.0/Libraries"></property>
+    <property name="build.dir" value="build"></property>
+    <property name="war.content.additional" value=""></property>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"></property>
+    <property name="java.awt.graphicsenv" value="apple.awt.CGraphicsEnvironment"></property>
+    <property name="dist.ear.war" value="dist/gsu_fhce.war"></property>
+    <property name="javadoc.windowtitle" value=""></property>
+    <property name="j2ee.platform.classpath" value="/Applications/NetBeans.app/Contents/Resources/NetBeans/enterprise2/jakarta-tomcat-5.5.9/common/lib/ant.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/enterprise2/jakarta-tomcat-5.5.9/common/lib/commons-el.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/enterprise2/jakarta-tomcat-5.5.9/common/lib/jasper-compiler.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/enterprise2/jakarta-tomcat-5.5.9/common/lib/jasper-runtime.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/enterprise2/jakarta-tomcat-5.5.9/common/lib/jsp-api.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/enterprise2/jakarta-tomcat-5.5.9/common/lib/naming-factory-dbcp.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/enterprise2/jakarta-tomcat-5.5.9/common/lib/naming-factory.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/enterprise2/jakarta-tomcat-5.5.9/common/lib/naming-resources.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/enterprise2/jakarta-tomcat-5.5.9/common/lib/servlet-api.jar"></property>
+    <property name="http.proxyPort" value=""></property>
+    <property name="https.proxyHost" value=""></property>
+    <property name="com.apple.mrj.application.apple.menu.about.name" value="NetBeans"></property>
+    <property name="netbeans.osenv" value="/tmp/nbenv.4723"></property>
+    <property name="libs.jstl11.javadoc" value="/Applications/NetBeans.app/Contents/Resources/NetBeans/enterprise2/docs/jstl-1.1.2-javadoc.zip"></property>
+    <property name="build.compiler.emacs" value="true"></property>
+    <property name="libs.jstl11.src" value=""></property>
+    <property name="ant.project.name" value="gsu_fhce"></property>
+    <property name="libs.swing-layout.classpath" value="/Applications/NetBeans.app/Contents/Resources/NetBeans/platform6/modules/ext/swing-layout-1.0.jar"></property>
+    <property name="java.vm.specification.version" value="1.0"></property>
+    <property name="build.web.dir.real" value="build/web"></property>
+    <property name="awt.toolkit" value="apple.awt.CToolkit"></property>
+    <property name="javadoc.use" value="true"></property>
+    <property name="sun.cpu.isalist" value=""></property>
+    <property name="java.ext.dirs" value="/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Frameworks/JavaVM.framework/Versions/1.5.0/Home/lib/ext"></property>
+    <property name="os.version" value="10.4.8"></property>
+    <property name="libs.jstl11.classpath" value="/Applications/NetBeans.app/Contents/Resources/NetBeans/enterprise2/modules/ext/standard.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/enterprise2/modules/ext/jstl.jar"></property>
+    <property name="user.home" value="/Users/travis"></property>
+    <property name="org.xml.sax.driver" value="org.apache.crimson.parser.XMLReaderImpl"></property>
+    <property name="javax.xml.parsers.DocumentBuilderFactory" value="org.netbeans.core.startup.DOMFactoryImpl"></property>
+    <property name="java.vm.vendor" value="&quot;Apple Computer, Inc.&quot;"></property>
+    <property name="libs.struts.src" value=""></property>
+    <property name="user.dir" value="/Users/travis/Documents/school stuff/gsu_fhce"></property>
+    <property name="org.openide.TopManager.GUI" value="true"></property>
+    <property name="libs.jsf.javadoc" value="/Applications/NetBeans.app/Contents/Resources/NetBeans/enterprise2/docs/jsf-1.1.01-javadoc.zip"></property>
+    <property name="env-path" value="/usr/bin:/bin:/usr/sbin:/sbin"></property>
+    <property name="sun.cpu.endian" value="little"></property>
+    <property name="Env-J2D_PIXMAPS" value="shared"></property>
+    <property name="java.vm.version" value="1.5.0_06-64"></property>
+    <property name="dist.war" value="dist/gsu_fhce.war"></property>
+    <property name="java.class.path" value="/Users/travis/Documents/java/mysql-connector-java-3.1.13/mysql-connector-java-3.1.13-bin.jar:/Users/travis/Documents/school stuff/gsu_fhce/build/web/WEB-INF/classes:/Applications/NetBeans.app/Contents/Resources/NetBeans/ide6/modules/ext/junit-3.8.1.jar:/Users/travis/Documents/school stuff/gsu_fhce/build/test/classes:/Applications/NetBeans.app/Contents/Resources/NetBeans/ide6/ant/lib/ant-launcher.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/ide6/ant/lib/ant.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/ide6/ant/lib/ant-junit.jar:/System/Library/Frameworks/JavaVM.framework/Versions/1.5.0/Classes/.compatibility/14compatibility.jar"></property>
+    <property name="javax.xml.parsers.SAXParserFactory" value="org.netbeans.core.startup.SAXFactoryImpl"></property>
+    <property name="os.arch" value="i386"></property>
+    <property name="javac.deprecation" value="false"></property>
+    <property name="http.proxyHost" value=""></property>
+    <property name="nbplatform.default.netbeans.dest.dir" value="/Applications/NetBeans.app/Contents/Resources/NetBeans"></property>
+    <property name="build.classes.excludes" value="**/*.java,**/*.form"></property>
+    <property name="dist.dir" value="dist"></property>
+    <property name="debug.classpath" value="/Users/travis/Documents/java/mysql-connector-java-3.1.13/mysql-connector-java-3.1.13-bin.jar:build/web/WEB-INF/classes:build/ear-module/WEB-INF/classes"></property>
+    <property name="netbeans.user" value="/Users/travis/.netbeans/5.0"></property>
+    <property name="do.display.browser" value="true"></property>
+    <property name="jspcompilation.classpath" value="/Applications/NetBeans.app/Contents/Resources/NetBeans/ide6/ant/lib/ant.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/enterprise2/jakarta-tomcat-5.5.9/common/lib/ant.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/enterprise2/jakarta-tomcat-5.5.9/common/lib/commons-el.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/enterprise2/jakarta-tomcat-5.5.9/common/lib/jasper-compiler.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/enterprise2/jakarta-tomcat-5.5.9/common/lib/jasper-runtime.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/enterprise2/jakarta-tomcat-5.5.9/common/lib/jsp-api.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/enterprise2/jakarta-tomcat-5.5.9/common/lib/naming-factory-dbcp.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/enterprise2/jakarta-tomcat-5.5.9/common/lib/naming-factory.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/enterprise2/jakarta-tomcat-5.5.9/common/lib/naming-resources.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/enterprise2/jakarta-tomcat-5.5.9/common/lib/servlet-api.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/enterprise2/modules/ext/jasper-compiler-5.5.9.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/enterprise2/modules/ext/jasper-runtime-5.5.9.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/enterprise2/modules/ext/commons-el.jar:/Applications/NetBeans.app/Contents/Resources/NetBeans/ide6/modules/ext/commons-logging-1.0.4.jar:/Users/travis/Documents/java/mysql-connector-java-3.1.13/mysql-connector-java-3.1.13-bin.jar"></property>
+    <property name="Env-SHLVL" value="2"></property>
+    <property name="ant.file.gsu_fhce-impl" value="/Users/travis/Documents/school stuff/gsu_fhce/nbproject/build-impl.xml"></property>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."></property>
+    <property name="file.separator" value="/"></property>
+    <property name="java.runtime.version" value="1.5.0_06-112"></property>
+    <property name="debug.test.classpath" value="/Users/travis/Documents/java/mysql-connector-java-3.1.13/mysql-connector-java-3.1.13-bin.jar:build/web/WEB-INF/classes:/Applications/NetBeans.app/Contents/Resources/NetBeans/ide6/modules/ext/junit-3.8.1.jar:build/test/classes"></property>
+    <property name="sun.boot.class.path" value="/System/Library/Frameworks/JavaVM.framework/Versions/1.5.0/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Versions/1.5.0/Classes/ui.jar:/System/Library/Frameworks/JavaVM.framework/Versions/1.5.0/Classes/laf.jar:/System/Library/Frameworks/JavaVM.framework/Versions/1.5.0/Classes/sunrsasign.jar:/System/Library/Frameworks/JavaVM.framework/Versions/1.5.0/Classes/jsse.jar:/System/Library/Frameworks/JavaVM.framework/Versions/1.5.0/Classes/jce.jar:/System/Library/Frameworks/JavaVM.framework/Versions/1.5.0/Classes/charsets.jar"></property>
+    <property name="env-user" value="travis"></property>
+    <property name="have.tests" value="true"></property>
+    <property name="Env-HOME" value="/Users/travis"></property>
+    <property name="ant.file.gsu_fhce" value="/Users/travis/Documents/school stuff/gsu_fhce/build.xml"></property>
+    <property name="user.country" value="US"></property>
+    <property name="javadoc.notree" value="false"></property>
+    <property name="libs.struts.javadoc" value="/Applications/NetBeans.app/Contents/Resources/NetBeans/enterprise2/docs/struts-javadoc.zip"></property>
+    <property name="javac.classpath" value="/Users/travis/Documents/java/mysql-connector-java-3.1.13/mysql-connector-java-3.1.13-bin.jar"></property>
+    <property name="javadoc.additionalparam" value=""></property>
+    <property name="default.javac.target" value="1.5"></property>
+    <property name="build.classes.dir" value="build/web/WEB-INF/classes"></property>
+    <property name="libs.swing-layout.javadoc" value="/Applications/NetBeans.app/Contents/Resources/NetBeans/platform6/docs/swing-layout-1.0-doc.zip"></property>
+    <property name="libs.swing-layout.src" value=""></property>
+    <property name="java.vendor" value="Apple Computer, Inc."></property>
+    <property name="javac.target" value="1.4"></property>
+    <property name="env-j2d_pixmaps" value="shared"></property>
+    <property name="awt.nativeDoubleBuffering" value="true"></property>
+    <property name="libs.jaxrpc16.javadoc" value=""></property>
+    <property name="java.specification.version" value="1.5"></property>
+    <property name="war.ear.name" value="gsu_fhce.war"></property>
+    <property name="sun.arch.data.model" value="32"></property>
+  </properties>
+  <testcase classname="junit.framework.TestSuite$1" name="warning" time="0.027">
+    <failure message="No tests found in my.sample.test.gsuTest" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: No tests found in my.sample.test.gsuTest
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

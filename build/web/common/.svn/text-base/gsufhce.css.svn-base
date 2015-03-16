@@ -1,0 +1,182 @@
+html {
+    background: #FFF url(../images/bg_page.gif) repeat-y 0 0;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-size:  100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+p, ul, ol, dl, td {
+    font: 0.75em/125% "Trebuchet MS", arial, sans-serif;
+}
+
+p {
+    margin: 0px;
+    padding: 0px 0px 10px 0px;
+}
+
+#header {
+    width: 800px;
+    height: 121px;
+    background: #FFF url(../images/hdr.gif) no-repeat 0 0;
+    }
+    #logolink {
+        width: 100px;
+        height: 100px;
+        position: relative;
+        z-index: 2;
+        cursor: pointer;
+    }
+
+#nav {
+    width: 200px;
+    float: left;
+    border-top: 10px solid #1D325A;
+    color: #FFF
+    }
+    #nav .padding {
+        padding: 15px 15px 0px 0px;
+    }
+    #nav p.link, #member_login {
+        padding-left: 15px;
+    }
+    #nav a {
+        color: #FFF;
+    }
+    #nav ul {
+        padding: 0px;
+        margin: 0px;
+    }
+    #nav ul.user_nav {
+        margin-bottom: 10px;
+    }
+    #nav ul li {
+        list-style: none;
+        padding: 0px;
+        margin: 0px;
+    }
+    #nav ul li a {
+        text-decoration: none;
+        line-height: 100%;
+        display: block;
+        padding: 5px 0px 5px 15px;
+        border-left: 5px solid #25447D;
+    }
+    #nav ul li a:hover {
+        color: #FB0;
+        border-left: 5px solid #FB0;
+    }
+
+#member_login {
+    border: 1px solid #CCC;
+    padding: 10px;
+    margin: 0px 0px 10px 5px;
+    }
+    #member_login p {
+        padding: 0px 0px 5px 0px;
+        margin: 0px;
+    }
+#member_login input { font-size: 16px; }
+    #member_login input.reg_button {
+        padding: 0px;
+    }
+
+#signed_in_area {
+    padding: 5px;
+    margin: 0px 0px 10px 0px;
+    }
+    #signed_in_area a:hover {
+        text-decoration: none;
+    }
+
+#content {
+    width: 600px;
+    float: left;
+    display: inline;
+    margin: 15px 0px 0px 15px;
+    padding-bottom: 25px;
+    }
+
+#error_div {
+    border: 1px solid #000;
+    background-color: #CCC;
+    padding: 10px;
+    margin: 0px 0px 15px 0px;
+    }
+    #error_div ul {
+        margin: 0px;
+        padding: 0px 0px 0px 25px;
+    }
+    #error_div h3 {
+        margin: 0px;
+    }
+
+/*
+=======================================================
+Calendar Styles
+=======================================================
+*/
+#calendar_wrapper { }
+.calendar {
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+}
+.calendar td {
+    border-left: 1px solid #000;
+    border-top: 1px solid #000;
+    line-height: 100%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0;
+    margin: 0;
+}
+.calendar tr.days td {
+    background-color: #CCC;
+    height: auto;
+    padding-top: 5px;
+}
+.calendar td a {
+    display: block;
+    line-height: 24px;
+    text-decoration: none;
+}
+.calendar td a:hover {
+    background-color: #F00;
+}
+.calendar td.other_day {
+    color: #999;
+}
+.calendar td.today {
+    background-color: #CCC;
+}
+/*-------------------------------------------*/
+
+.register_info td {
+    font-weight: bold;
+}
+.register_info td input {
+    font-size: 16px;
+    color: #333;
+}
+input.fieldWithError {
+    border: 1px solid #F00;
+    background-color: #CCC;
+}
+.forgot {
+    font: 0.7em/125% "Trebuchet MS", arial, sans-serif;
+    color: #999;
+}
+.center {
+    text-align: center;
+}
+.nav_header {
+    padding: 0px 0px 0px 15px;
+    font-weight: bold;
+    font-size: 0.85em;
+}

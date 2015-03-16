@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/244/trunk/src/java/models
+END
+Resume.java
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/238/trunk/src/java/models/Resume.java
+END
+Skills.java
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/225/trunk/src/java/models/Skills.java
+END
+Event.java
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/240/trunk/src/java/models/Event.java
+END
+Work.java
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/225/trunk/src/java/models/Work.java
+END
+Hospital.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/238/trunk/src/java/models/Hospital.java
+END
+Mentor.java
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/244/trunk/src/java/models/Mentor.java
+END
+Alumni.java
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/244/trunk/src/java/models/Alumni.java
+END
+Residency.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/225/trunk/src/java/models/Residency.java
+END
+Student.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/244/trunk/src/java/models/Student.java
+END
+Person.java
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/225/trunk/src/java/models/Person.java
+END
+Education.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/225/trunk/src/java/models/Education.java
+END
+Page.java
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/225/trunk/src/java/models/Page.java
+END
+News.java
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/236/trunk/src/java/models/News.java
+END
+Super.java
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/225/trunk/src/java/models/Super.java
+END

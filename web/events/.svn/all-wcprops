@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/67/trunk/web/events
+END
+event_details.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/22/trunk/web/events/event_details.jsp
+END
+index.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/67/trunk/web/events/index.jsp
+END
+previous_month.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/18/trunk/web/events/previous_month.jsp
+END
+next_month.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/18/trunk/web/events/next_month.jsp
+END

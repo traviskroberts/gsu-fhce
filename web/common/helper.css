@@ -1,0 +1,12 @@
+body { background-color: #FFF; }
+
+p, li { font: normal 13px/125% arial, sans-serif; }
+h1, h2, h3 { font-family: arial, sans-serif; }
+h1 { font-size: 1.5em; }
+h2 { font-size: 1.3em; }
+h3 { font-size: 1.1em; }
+
+ul, ol { padding: 0; margin: 0 0 0 35px; }
+ul li, ol li { padding: 0; }
+
+.nopadding { padding: 0; margin: 0; }

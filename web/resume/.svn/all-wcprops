@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/244/trunk/web/resume
+END
+add_skill.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/124/trunk/web/resume/add_skill.jsp
+END
+edit_title.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/124/trunk/web/resume/edit_title.jsp
+END
+edit_work.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/124/trunk/web/resume/edit_work.jsp
+END
+edit_comments.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/130/trunk/web/resume/edit_comments.jsp
+END
+add_work.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/124/trunk/web/resume/add_work.jsp
+END
+confirm.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/101/trunk/web/resume/confirm.jsp
+END
+finalize.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/101/trunk/web/resume/finalize.jsp
+END
+edit_resume.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/130/trunk/web/resume/edit_resume.jsp
+END
+index.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/101/trunk/web/resume/index.jsp
+END
+list_resumes.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/157/trunk/web/resume/list_resumes.jsp
+END
+edit_education.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/124/trunk/web/resume/edit_education.jsp
+END
+detail_resume.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/244/trunk/web/resume/detail_resume.jsp
+END
+add_education.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/124/trunk/web/resume/add_education.jsp
+END
+edit_skill.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/124/trunk/web/resume/edit_skill.jsp
+END
+create_resume.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/124/trunk/web/resume/create_resume.jsp
+END

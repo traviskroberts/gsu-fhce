@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/244/trunk/web/admin
+END
+add_news.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/220/trunk/web/admin/add_news.jsp
+END
+add_page.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/219/trunk/web/admin/add_page.jsp
+END
+list_residencies.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/237/trunk/web/admin/list_residencies.jsp
+END
+edit_hospital.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/221/trunk/web/admin/edit_hospital.jsp
+END
+add_event.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/75/trunk/web/admin/add_event.jsp
+END
+edit_alumni.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/184/trunk/web/admin/edit_alumni.jsp
+END
+edit_residency.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/237/trunk/web/admin/edit_residency.jsp
+END
+edit_student.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/184/trunk/web/admin/edit_student.jsp
+END
+newHospital.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/237/trunk/web/admin/newHospital.jsp
+END
+add_residency.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/237/trunk/web/admin/add_residency.jsp
+END
+news_detail.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/208/trunk/web/admin/news_detail.jsp
+END
+edit_members.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/240/trunk/web/admin/edit_members.jsp
+END
+add_mentorship.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/227/trunk/web/admin/add_mentorship.jsp
+END
+edit_pages.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/218/trunk/web/admin/edit_pages.jsp
+END
+index.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/244/trunk/web/admin/index.jsp
+END
+news_list.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/204/trunk/web/admin/news_list.jsp
+END
+edit_events.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/219/trunk/web/admin/edit_events.jsp
+END
+mentorship_delete.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/231/trunk/web/admin/mentorship_delete.jsp
+END
+mentorship_create.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/232/trunk/web/admin/mentorship_create.jsp
+END
+list.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/244/trunk/web/admin/list.jsp
+END
+news_update.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/244/trunk/web/admin/news_update.jsp
+END

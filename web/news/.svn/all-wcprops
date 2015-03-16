@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/224/trunk/web/news
+END
+list.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/210/trunk/web/news/list.jsp
+END
+news_update.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/147/trunk/web/news/news_update.jsp
+END
+news_detail.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/224/trunk/web/news/news_detail.jsp
+END

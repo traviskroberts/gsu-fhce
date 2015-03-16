@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/237/trunk/web/residency
+END
+detail_residency.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/237/trunk/web/residency/detail_residency.jsp
+END
+index.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/237/trunk/web/residency/index.jsp
+END
+edit_residency.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/237/trunk/web/residency/edit_residency.jsp
+END
+add_residency.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/237/trunk/web/residency/add_residency.jsp
+END
+list_residency.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/237/trunk/web/residency/list_residency.jsp
+END

@@ -1,0 +1,293 @@
+* { padding: 0; margin: 0; }
+
+html { background: #FFF url(../images/bg_page.gif) repeat-y 0 0; }
+
+body { font-size:  100%; margin: 0; padding: 0; }
+
+h1, h2, h3, h4, h5 { font: 100%/100% georgia, times, sans_serif; }
+h1 { font-size: 1.4em; margin: 0 0 10px 0; }
+h2 { font-size: 1.2em; margin: 0 0 10px 0; }
+h3 { font-size: 1.0em; margin: 0 0 10px 0; color: #666; }
+h4 { font-size: 0.9em; font-weight: bold; }
+
+p, ul, ol, dl, td { font: 0.75em/125% "Trebuchet MS", arial, sans-serif; }
+
+p { padding: 0 0 10px 0; }
+
+th { text-align: left; }
+
+a, a:link { color: #369; }
+a:visited { color: #639; }
+a:hover { color: #369; text-decoration: none; }
+
+img { border: none; }
+
+textarea { margin: 0; }
+
+ul { margin: 0 0 0 25px; }
+ul li { padding: 2px 0; }
+
+#header {
+    width: 800px;
+    height: 121px;
+    background: #FFF url(../images/hdr.gif) no-repeat 0 0;
+    }
+    #logolink {
+        width: 100px;
+        height: 100px;
+        position: relative;
+        z-index: 2;
+        cursor: pointer;
+    }
+
+#nav {
+    width: 200px;
+    float: left;
+    border-top: 10px solid #1D325A;
+    color: #FFF
+    }
+    #nav .padding { padding: 15px 15px 0 0; }
+    #nav p.link, #member_login { padding-left: 15px; }
+    #nav a { color: #FFF; }
+    #nav ul.user_nav { margin-bottom: 10px; }
+    #nav ul { margin: 0; }
+    #nav ul li { list-style: none; padding: 0; }
+    #nav ul li a {
+        text-decoration: none;
+        line-height: 100%;
+        display: block;
+        padding: 5px 0 5px 15px;
+        border-left: 5px solid #25447D;
+    }
+    #nav ul li a:hover { color: #FB0; border-left: 5px solid #FB0; }
+
+#member_login {
+    border: 1px solid #CCC;
+    padding: 10px;
+    margin: 0 0 10px 5px;
+    }
+#member_login p { padding: 0 0 5px 0; }
+#member_login input { font-size: 16px; }
+#member_login input.reg_button { padding: 0; }
+
+#signed_in_area { padding: 5px; margin: 0 0 10px 0; }
+#signed_in_area a:hover { text-decoration: none; }
+
+#content {
+    width: 600px;
+    float: left;
+    display: inline;
+    margin: 15px 0 0 15px;
+    padding-bottom: 25px;
+    }
+
+#error_div {
+    border: 1px solid #000;
+    background-color: #CCC;
+    padding: 10px;
+    margin: 0 0 15px 0;
+}
+#error_div ul { margin: 0; padding: 0 0 0 25px; }
+#error_div h3 { margin: 0; }
+
+.subnav {
+    width: 200px;
+    background-color: #CCC;
+    border: 1px dashed #000;
+    float: right;
+}
+.subnav p { padding: 7px 5px 5px 15px; font-weight: bold; }
+.subnav ul { padding: 0 5px 10px 25px; margin: 0; }
+
+#recent_news, #upcoming_events { width: 400px; }
+#recent_news h2, #upcoming_events h2 { border-bottom: 1px solid #000; }
+.story, .event { padding: 0 10px 15px 10px; }
+.story p, .event p { padding: 0 0 2px 0; }
+.news_title, .event_title { font-size: 0.9em; }
+.news_link, .cal_link { font-size: 0.7em; }
+.cal_link { padding: 0 10px 15px 10px; }
+
+/*
+=======================================================
+Residency Styles
+=======================================================
+*/
+#residency_list{
+    text-align: left;
+    }
+td.residency_name{
+    width: 150px;
+}
+td.residency_date{
+    width: 80px;
+}
+td.residency_link{
+    width: 30px;
+}
+h3 a.add_button {
+    color: #FFF;
+    text-decoration: none;
+    background-color: #25437D;
+    display: block;
+    padding: 5px 8px;
+    border-top: 2px solid #4969A6;
+    border-left: 2px solid #4969A6;
+    border-right: 2px solid #172745;
+    border-bottom: 2px solid #172745;
+    margin-bottom: 10px;
+    float: left;
+}
+h3 a.add_button:hover {
+    background-color: #25437D;
+    border-bottom: 2px solid #4969A6;
+    border-right: 2px solid #4969A6;
+    border-left: 2px solid #172745;
+    border-top: 2px solid #172745;
+}
+/*
+=======================================================
+Calendar Styles
+=======================================================
+*/
+#calendar_wrapper { width: 225px; float: left; }
+.calendar {
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+}
+.calendar td {
+    border-left: 1px solid #000;
+    border-top: 1px solid #000;
+    line-height: 100%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0;
+    margin: 0;
+}
+.calendar tr.days td {
+    background-color: #CCC;
+    height: auto;
+    padding-top: 5px;
+}
+.calendar td a {
+    display: block;
+    line-height: 24px;
+    text-decoration: none;
+    background-color: #F6821F;
+    color: #000;
+}
+.calendar td a:hover { background-color: #23B14D; color: #FFF; }
+.calendar td.other_day { color: #999; }
+.calendar td.today { background-color: #CCC; }
+.calendar td.ajax_link { background-color: #999; }
+.calendar td.ajax_link a {
+    background-color: #999;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+}
+.calendar td.ajax_link a:hover { background-color: #333; color: #FFF; }
+.calendar td.month_name {
+    font-size: 16px;
+    background-color: #25437D;
+    color: #FFF;
+}
+.event_details {
+    line-height: 150%;
+}
+#event_detail_wrapper {
+    width: 350px;
+    float: left;
+    position: relative;
+}
+#event_busy p { text-align: center; margin: 15px 0; }
+
+#notice {
+    margin: 5px 0 15px 0;
+    background-color: #FFF;
+    }
+#notice p {
+    padding: 8px 10px;
+    color: #000;
+    background-color: #CCC;
+    border: 2px solid #000;
+    }
+    #notice .xlink {
+        float: right;
+        border: 1px solid #000;
+        line-height: 100%;
+    }
+    #notice .xlink a {
+        text-decoration: none;
+        padding: 2px;
+        color: #000;
+    }
+    #notice .xlink a:hover {
+        color: #666;
+    }
+
+/*
+=======================================================
+Admin Styles
+=======================================================
+*/
+h3 a.add_button {
+    color: #FFF;
+    text-decoration: none;
+    background-color: #25437D;
+    display: block;
+    padding: 5px 8px;
+    border-top: 2px solid #4969A6;
+    border-left: 2px solid #4969A6;
+    border-right: 2px solid #172745;
+    border-bottom: 2px solid #172745;
+    margin-bottom: 10px;
+    float: left;
+}
+h3 a.add_button:hover {
+    background-color: #25437D;
+    border-bottom: 2px solid #4969A6;
+    border-right: 2px solid #4969A6;
+    border-left: 2px solid #172745;
+    border-top: 2px solid #172745;
+}
+/*-------------------------------------------*/
+
+.clear { clear: both; }
+.register_info td { font-weight: bold; }
+.register_info td input { font-size: 16px; color: #333; }
+input.fieldWithError, select.fieldWithError, textarea.fieldWithError {
+    border: 1px solid #F00;
+    background-color: #CCC;
+}
+.forgot { font: 0.7em/125% "Trebuchet MS", arial, sans-serif; color: #999; }
+.center { text-align: center; }
+.nav_header {
+    padding: 0 0 0 15px;
+    font-weight: bold;
+    font-size: 0.85em;
+}
+.elevenpx { font-size: 11px; }
+.centered_table td { text-align: center; }
+.help_link { font-size: 10px; }
+.formfield { width: 250px; border: 2px solid #999; font-size: 14px; color: #333; padding: 2px; }
+.smallfield { width: 100px; border: 2px solid #999; font-size: 14px; color: #333; padding: 2px; }
+.tinyfield { width: 50px; border: 2px solid #999; font-size: 14px; color: #333; padding: 2px; }
+.selectfield { border: 2px solid #999; font-size: 14px; color: #333; }
+.selectfield option { padding: 1px 5px 1px 2px; }
+.timefield { width: 25px; border: 2px solid #999; font-size: 14px; color: #333; padding: 2px; }
+.formfield:focus, .smallfield:focus, .tinyfield:focus, .selectfield:focus, .timefield:focus {
+    border: 2px solid #25437D;
+}
+.formspace { margin-bottom: 3px; }
+.area { width: 400px; }
+strong.month { font-size: 14px; }
+.month_display { line-height: 22px; padding: 0; margin-bottom: 10px; text-align: center; }
+.month_display img { vertical-align: middle; margin: 0 5px; padding: 0 0 3px 0; }
+.resume { margin: 0 0 10px 0; width: 75%; border: 1px solid #000; }
+.resume td { padding: 2px 5px; }
+.resume .title { background-color: #CCC; width: 28%; }
+.resume_actions { text-align: right; }
+.edit_link { font-size: 10px; }
+.home_image { float: right; margin: 0 0 5px 15px; }
